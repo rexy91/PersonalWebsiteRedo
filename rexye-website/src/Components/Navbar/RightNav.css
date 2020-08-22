@@ -1,0 +1,26 @@
+.right-nav ul{
+        list-style: none;
+        display: flex;
+}
+
+@media (max-width:768px){
+    .right-nav ul{
+        /* Hide it, show it upon burger click */
+        /* display: none; */
+        align-items: center;
+        width: 40%;
+        color: #f1f1f1;
+        position: fixed;
+        flex-flow: column nowrap;
+        background-color: #0D2538;
+        top:0;
+        right:0;
+        height: 100vh;
+        padding-top:  3.5rem;
+        transition: transform 0.3s ease-in-out;
+    }
+    
+    .right-nav li{
+        padding: 30px 10px;
+    }
+}

@@ -1,16 +1,18 @@
 .navbar-component{
+    font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 20px;
     align-items: center;
     border-bottom: 2px solid;
-    background-color: #f1f1f1;
+    
 }
 
-.navbar-component ul{
-    list-style: none;
-    display: flex;
+.logo{
+    color: black;
+    padding: 20px 0;
 }
-
 .navbar-component li{
-    padding: 10px;
+    padding: 0 20px;
 }
+

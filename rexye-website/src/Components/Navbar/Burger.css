@@ -1,0 +1,21 @@
+/* Burget div */
+.burger{
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+}
+
+/* Each line's div  */
+
+.burger div {
+    border-radius: 10px;
+    width: 2rem;
+    height: 0.25rem;
+    
+    
+}
