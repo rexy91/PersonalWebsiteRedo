@@ -1,8 +1,11 @@
 .navbar-component{
-    font-size: 18px;
+    overflow: hidden;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 20px;
     align-items: center;
     border-bottom: 2px solid;
 }

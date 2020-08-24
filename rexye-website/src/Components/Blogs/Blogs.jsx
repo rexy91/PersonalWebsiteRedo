@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import './Main.css'
+import './Blogs.css'
 
-class Main extends Component {
+class Blogs extends Component {
     render() {
         return (
-            <div className='landing-page' id='main'>
+            <div className='blogs-section' id='blogs'>
                 
             </div>
         );
     }
 }
 
-export default Main;
+export default Blogs;
