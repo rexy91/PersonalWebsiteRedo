@@ -8,6 +8,8 @@ class Burger extends Component {
     state={
         open:false
     }
+    
+    // this toggles the right nav bar open 
     toggleBurger = () => {
         this.setState({
             open: !this.state.open
@@ -18,11 +20,11 @@ class Burger extends Component {
         return (
             <>
             <div className='burger' open={this.state.open} onClick = {this.toggleBurger}>
-                    <div style={ this.state.open ?  {backgroundColor:'#f1f1f1', transform: 'rotate(40deg)'} : {backgroundColor:'black'} }></div>
-                    <div style={ this.state.open ?  {backgroundColor:'#f1f1f1' } : {backgroundColor:'black'} }></div>
-                    <div style={ this.state.open ?  {backgroundColor:'#f1f1f1'} : {backgroundColor:'black'} }></div>      
+                    <div style={ this.state.open ?  {backgroundColor:'#DCDCDC', transform: 'rotate(40deg)'} : {backgroundColor:'black'} }></div>
+                    <div style={ this.state.open ?  {backgroundColor:'#DCDCDC' } : {backgroundColor:'black'} }></div>
+                    <div style={ this.state.open ?  {backgroundColor:'#DCDCDC'} : {backgroundColor:'black'} }></div>      
             </div>
-                {/* open={this.state.open} toggles the right nav items  */}
+                
                 <RightNav open={this.state.open}/>
             </>
             
