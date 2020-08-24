@@ -10,7 +10,12 @@ class Navbar extends Component {
                     <div className='logo'>
                             RexYe Website
                     </div>  
-                    <Burger/>
+                    <ul>
+                    <li>About</li>
+                    <li>Resume</li>
+                    <li>Projects</li>
+                    <li>Blogs</li>
+                </ul>
                 </div>
             
         )

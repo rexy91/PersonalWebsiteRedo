@@ -8,7 +8,6 @@ class Burger extends Component {
     state={
         open:false
     }
-
     toggleBurger = () => {
         this.setState({
             open: !this.state.open

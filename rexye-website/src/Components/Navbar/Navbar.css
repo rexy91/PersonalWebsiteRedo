@@ -5,9 +5,17 @@
     padding: 0 20px;
     align-items: center;
     border-bottom: 2px solid;
-    
+}
+.navbar-component ul{
+    display: flex;
+    list-style: none;
 }
 
+@media(max-width:768px){
+    .navbar-component ul{
+        display: none;
+    }
+}
 .logo{
     color: black;
     padding: 20px 0;
