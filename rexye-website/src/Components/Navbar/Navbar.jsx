@@ -16,6 +16,9 @@ class Navbar extends Component {
                     <li>Projects</li>
                     <li>Blogs</li>
                 </ul>
+                <div className='burger-div'>
+                <Burger/>
+                </div>
                 </div>
             
         )

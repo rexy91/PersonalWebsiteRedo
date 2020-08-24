@@ -24,3 +24,13 @@
     padding: 0 20px;
 }
 
+@media(max-width:768px){
+    .burger-div{
+        display: block;
+    }
+}
+@media(min-width:768px){
+    .burger-div{
+        display: none;
+    }
+}

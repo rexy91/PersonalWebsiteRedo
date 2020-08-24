@@ -14,16 +14,16 @@ class Burger extends Component {
         })
     }
     render() {
+        console.log(this.state.open)
         return (
             <>
             <div className='burger' open={this.state.open} onClick = {this.toggleBurger}>
                     <div style={ this.state.open ?  {backgroundColor:'#f1f1f1', transform: 'rotate(40deg)'} : {backgroundColor:'black'} }></div>
                     <div style={ this.state.open ?  {backgroundColor:'#f1f1f1' } : {backgroundColor:'black'} }></div>
-                    <div style={ this.state.open ?  {backgroundColor:'#f1f1f1'} : {backgroundColor:'black'} }></div>
-                    
+                    <div style={ this.state.open ?  {backgroundColor:'#f1f1f1'} : {backgroundColor:'black'} }></div>      
             </div>
-                {/* <RightNav open={this.state.open}/> */}
-                <RightNav />
+                {/* open={this.state.open} toggles the right nav items  */}
+                <RightNav open={this.state.open}/>
             </>
             
         );
