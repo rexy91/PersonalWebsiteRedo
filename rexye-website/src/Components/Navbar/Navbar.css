@@ -1,15 +1,33 @@
+
 .navbar-component{
-    overflow: hidden;
+    
+    top: 0%;
+    height: 80px;
     position: fixed;
-    background-color: white;
-    height: 10vh;
+    background-color:rgb(42, 42, 51);
+    margin-bottom: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid;
 }
+
+.logo{
+    font-family: 'Alata';
+    color:#fff;
+    font-size: 20px;
+    width: 30%;
+    line-height: 100px;
+    letter-spacing: 5px;
+    float: left;
+}
 .navbar-component ul{
+    color:#fff;
+    font-family: 'Alata';
+    line-height: 100px;
+    float: right;
+    font-size: 20px;
     display: flex;
     list-style: none;
 }
@@ -19,10 +37,7 @@
         display: none;
     }
 }
-.logo{
-    color: black;
-    padding: 20px 0;
-}
+
 .navbar-component li{
     padding: 0 20px;
 }

@@ -9,7 +9,6 @@ import Projects from './Components/Projects/Projects'
 import Blogs from './Components/Blogs/Blogs'
 import Contact from './Components/Contact/Contact'
 
-
 function App() {
   return (
     <div className="App">
