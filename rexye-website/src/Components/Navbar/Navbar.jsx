@@ -18,7 +18,7 @@ class Navbar extends Component {
                         to='main'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             Rex Ye
                     </Link>
@@ -29,7 +29,7 @@ class Navbar extends Component {
                         to='about'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             <li>About</li>
                     </Link>                    
@@ -39,7 +39,7 @@ class Navbar extends Component {
                         to='resume'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             <li>Resume</li>
                     </Link>
@@ -48,7 +48,7 @@ class Navbar extends Component {
                         to='projects'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             <li>Projects</li>
                     </Link>
@@ -57,7 +57,7 @@ class Navbar extends Component {
                         to='blogs'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             <li>Blogs</li>
                     </Link>
@@ -66,7 +66,7 @@ class Navbar extends Component {
                         to='contact'
                         spy={true}
                         smooth={true}
-                        offset={0}
+                        offset={-80}
                         duration= {500}>
                             <li>Contact</li>
                     </Link>
