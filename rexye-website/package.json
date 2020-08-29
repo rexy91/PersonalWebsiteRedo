@@ -14,7 +14,7 @@
     "react-scoll": "^1.1.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
-    "react-tooltip": "^4.2.8"
+    "react-tooltip": "^4.2.9"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,12 +1,12 @@
 .landing-page{
-    /* margin-top: 80px; */
+    
     height: 100vh;
-    background-image: url('https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url('https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjk5NTd9&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
 }
 
 .main-page-content p{
+    font-family: 'EB Garamond', serif;
     margin-top: 1.8em;
     font-size: 1.5em;
     text-align: center;
@@ -15,14 +15,39 @@
     color:rgb(241, 238, 238);
 }
 
+.main-page-content p,h4{
+    
+}
+
+
 #header{
-    letter-spacing: 5px;
+    padding-top: 120px;
+    letter-spacing: 7px;
     font-family: 'Merriweather', serif;
     color: #fff;
     font-size: 50px;
     text-align: center;
-    margin-top: 10%;
+    animation: landingHeader 3s 1;
+
 }
+
+/* header animation */
+@keyframes landingHeader{
+    0%{
+        color: blanchedalmond;
+        letter-spacing: 25px;
+        margin: -40px;
+    }
+    35%{
+        margin: -40px;
+    }
+    
+    85%{
+        letter-spacing: 7px;
+    }
+}
+
+
 
 @media(max-width:758px){
     .landing-page{
@@ -50,3 +75,19 @@
         line-height: 30px
     }
 }
+
+.social-links{
+    text-align: center;
+
+}
+
+.social-links i {
+    margin-top: 3em;
+    letter-spacing: 40px;
+    color: white;
+    font-size: 3.5em;
+    padding: 8px;
+  }
+  
+
+
