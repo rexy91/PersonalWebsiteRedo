@@ -18,7 +18,7 @@ class Navbar extends Component {
                         to='main'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={0}
                         duration= {500}>
                             Rex Ye
                     </Link>
@@ -29,7 +29,7 @@ class Navbar extends Component {
                         to='about'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        offset={0}
                         duration= {500}>
                             <li>About</li>
                     </Link>                    

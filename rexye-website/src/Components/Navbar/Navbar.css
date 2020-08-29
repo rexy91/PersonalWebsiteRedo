@@ -1,10 +1,9 @@
 
 .navbar-component{
-    
     top: 0%;
-    height: 80px;
+    height: 60px;
     position: fixed;
-    background-color:rgb(42, 42, 51);
+    background-color:rgba(69, 69, 88,0.7);
     margin-bottom: 10px;
     width: 100%;
     display: flex;
