@@ -83,11 +83,32 @@
     padding: 8px;
   }
 
+
   /* animation for social links  */
 .social-links{
     animation-delay: 2s;
     animation: landingIcons 3s ease-in; 
 
+}
+
+@media screen and (max-width:960px){
+
+    .social-links i {
+        letter-spacing: 25px;
+        margin-top: 1em;
+        font-size: 2.5em;
+
+    }
+
+    .social-links{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .social-links i{
+        letter-spacing: 15px;
+    }
 }
 
 @keyframes landingIcons{
