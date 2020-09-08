@@ -66,7 +66,8 @@ class Navbar extends Component {
                         to='contact'
                         spy={true}
                         smooth={true}
-                        offset={-80}
+                        // 0, doesnt give any margin to the top when scolling. 
+                        offset={-65}
                         duration= {500}>
                             <li>Contact</li>
                     </Link>
