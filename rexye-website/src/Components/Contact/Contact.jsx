@@ -11,7 +11,6 @@ class Contact extends Component {
                         <input type="text" name='sendername'/>
                         <label>Email</label>
                         <input type='text' name='senderemail' placeholder='your email'></input>
-
                     </form>
             </div>
         );
