@@ -8,9 +8,11 @@ class Contact extends Component {
                     <h4>Contact Me</h4>
                     <form action="">
                         <label >Name</label>
-                        <input type="text" name='sendername'/>
+                        <input type="text" name='sendername'/><br/>
                         <label>Email</label>
-                        <input type='text' name='senderemail' placeholder='your email'></input>
+                        <input type='text' name='senderemail' placeholder='your email'></input><br/>
+                        <textarea name="" id="" cols="30" rows="10" placeholder='message...'></textarea><br/>
+                        <button type='submit'>Send</button>
                     </form>
             </div>
         );
